@@ -30,7 +30,11 @@ namespace BiggestOf3
             }
             if (d > b && d > c && d > a && d > e)
             {
- 
+                Console.WriteLine(d);
+            }
+            if (a == b && a == c && a == d && a == e)
+            {
+                Console.WriteLine(a);
             }
         }
     }
